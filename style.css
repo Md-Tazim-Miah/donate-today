@@ -11,10 +11,13 @@ body{
 }
 .heading-area{
     text-align: center;
-    color: white;
+    color:black;
     padding: 10% 25%;
 }
-.heading{
+#top-heading-color{
+    color: white;
+}
+h1{
     font-size: 50px;
 }
 .link-button{
@@ -23,6 +26,25 @@ body{
     padding: 10px 40px;
     background-image: linear-gradient(yellow,red);
     border-radius: 20px;
+    font-weight: 900;    
+}
+#heading-text{
+    margin-bottom: 100px;
+}
+.amount{
+    display:flex;
+    text-align: center;
+}
+.tk{
+    margin: 40px;
     font-weight: 900;
-    
+    color:rgb(124, 124, 124);
+    box-shadow: 10px 10px 10px grey;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(241, 238, 238);   
+}
+#bg-color{
+    background-color: rgb(196, 252, 140);
+    border: 2px solid rgb(38, 235, 38);
 }
