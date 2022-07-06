@@ -38,6 +38,7 @@ h1{
     background-color: rgb(178, 248, 248);
 }
 .flex-container{
+    margin-top: 50px;
     width: 100%;
     height: auto;
     display:flex;
@@ -59,7 +60,7 @@ h1{
     background-color: rgb(131, 243, 19);
     border: 2px solid rgb(11, 175, 11);
 }
-input{
+#input-design{
     margin-top: 50px;
     border: none;
     font-size: 20px;
@@ -115,4 +116,30 @@ img{
 }
 #image-bg{
     background-color: rgb(244, 252, 200);
+}
+#get-updates{
+    width: 80%;
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-color: rgb(252, 240, 188);
+}
+.email{
+    margin-top: 5%;
+}
+#email-input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(203, 207, 207);
+    border-radius: 3px;
+}
+#subscribe-button{
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(252, 42, 42);
+    border-radius: 3px;   
 }
