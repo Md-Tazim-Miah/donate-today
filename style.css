@@ -9,16 +9,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+p{
+    text-align: justify;
+}
 .heading-area{
     text-align: center;
     color:black;
-    padding: 10% 25%;
+    padding: 5% 15%;
 }
 #top-heading-color{
     color: white;
 }
 h1{
     font-size: 50px;
+}
+#heading-text{
+    margin-bottom: 50px;
 }
 .link-button{
     text-decoration: none;
@@ -28,9 +34,6 @@ h1{
     border-radius: 20px;
     font-weight: 900;    
 }
-#heading-text{
-    margin-bottom: 100px;
-}
 #donate-today{
     background-color: rgb(178, 248, 248);
 }
@@ -38,29 +41,54 @@ h1{
     width: 100%;
     height: auto;
     display:flex;
-    text-align: center;
-    display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: center;    
 }
 .tk{
-    margin: 40px;
+    margin: 5%;
+    width:50px;
+    height:50px;
     font-weight: 900;
     color:rgb(124, 124, 124);
     box-shadow: 10px 10px 10px grey;
-    padding: 10px 10px;
     border-radius: 10px;
-    background-color: rgb(248, 243, 176);   
+    background-color: rgb(248, 243, 176);
+    padding: 20px;
 }
 #bg-color{
-    background-color: rgb(196, 252, 140);
-    border: 2px solid rgb(38, 235, 38);
+    background-color: rgb(131, 243, 19);
+    border: 2px solid rgb(11, 175, 11);
 }
 input{
+    margin-top: 50px;
     border: none;
     font-size: 20px;
     font-weight: 700;
     outline: none;
     background-color: rgb(178, 248, 248);
+}
+hr{
+    margin-bottom: 50px;
+}
+.flex-containter2{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-item{
+    margin: 2%;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(250, 236, 219);
+    text-align: left;
+    padding: 10px;  
+}
+#item2{
+    background-color: rgb(200, 250, 233);
+}
+#item3{
+    background-color: rgb(248, 207, 248);
 }
